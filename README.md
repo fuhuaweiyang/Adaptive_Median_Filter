@@ -1,0 +1,9 @@
+本代码运行环境为Python，需要安装numpy、matplotlib、cv2库函数。
+
+噪音函数如下：
+add_white_noise函数添加白噪音，输入的数据为白噪音的标准差
+add_salt_and_pepper_noise函数添加椒盐噪音，输入的数据为椒盐噪音在图像中的占比大小
+
+
+adaptive_median_filter_show函数直接依次输入噪音图像以及原图像的地址即可
+之所以这样是为了方便选择不同噪音函数对噪音图像进行改造。
